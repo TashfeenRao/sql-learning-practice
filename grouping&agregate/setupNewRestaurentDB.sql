@@ -4,7 +4,7 @@ create TABLE payment_method (
     name varchar(300) not null
 );
 create TABLE tables (
-    id int,
+    id int PRIMARY KEY auto_increment,
     num_seats int NOT NULL,
     category varchar(300) NOT NULL
 );
