@@ -1,4 +1,3 @@
-
 # transaction creates the values in database memory but do not save changes in database until
 # we commit that change. we can rollback that in memory change to previous state.
 start transaction;
